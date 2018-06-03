@@ -1,416 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75b3b1cc-8e6d-4dea-a1f7-5d61968b37bf" name="Default" comment="initial project">
-      <change afterPath="$PROJECT_DIR$/lib/commons-beanutils.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-collections.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-daemon.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-digester.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-logging.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-modeler.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaas.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jakarta-regexp-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jcert.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jnet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jsse.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mx4j.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/naming-common.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/naming-factory.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/naming-resources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tomcat-util.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/xercesImpl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/xmlParserAPIs.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Authenticator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Cluster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Connector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Contained.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ContainerEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ContainerListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ContainerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/DefaultContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Deployer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Globals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Host.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/HttpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/HttpResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/InstanceEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/InstanceListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Lifecycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/LifecycleEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/LifecycleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/LifecycleListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Loader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Pipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Realm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ServerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Session.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/SessionEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/SessionListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/UserDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Valve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ValveContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/Wrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/authenticator/AuthenticatorBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/authenticator/BasicAuthenticator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/authenticator/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/authenticator/DigestAuthenticator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/authenticator/FormAuthenticator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/authenticator/LocalStrings.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/authenticator/LocalStrings_es.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/authenticator/LocalStrings_ja.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/authenticator/NonLoginAuthenticator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/authenticator/SSLAuthenticator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/authenticator/SavedRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/authenticator/SingleSignOn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/cluster/ClusterMemberInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/cluster/ClusterReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/cluster/ClusterSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/cluster/ClusterSessionBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/cluster/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/cluster/LocalStrings.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/cluster/LocalStrings_ja.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/cluster/MulticastReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/cluster/MulticastSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/cluster/ReplicationWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/cluster/StandardCluster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/HttpRequestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/HttpRequestFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/HttpRequestWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/HttpResponseBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/HttpResponseFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/HttpResponseWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/LocalStrings.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/LocalStrings_es.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/LocalStrings_ja.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/RequestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/RequestFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/RequestStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/RequestWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/ResponseBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/ResponseFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/ResponseStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/ResponseWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/ResponseWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http/DefaultHeaders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpRequestImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpRequestLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpRequestStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpResponseImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpResponseStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http/LocalStrings.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http/LocalStrings_es.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http/LocalStrings_ja.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http/SocketInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http10/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http10/HttpConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http10/HttpProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http10/HttpRequestImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http10/HttpResponseImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http10/LocalStrings.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http10/LocalStrings_ja.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/ApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/ApplicationContextFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/ApplicationDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/ApplicationFilterChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/ApplicationFilterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/ApplicationHttpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/ApplicationHttpResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/ApplicationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/ApplicationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/ContainerBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/FastEngineMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/LocalStrings.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/LocalStrings_ja.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/MappingRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/NamingContextListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/StandardContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/StandardContextMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/StandardContextValve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/StandardDefaultContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/StandardEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/StandardEngineMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/StandardEngineValve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/StandardHost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/StandardHostDeployer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/StandardHostMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/StandardHostValve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/StandardPipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/StandardServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/StandardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/StandardWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/StandardWrapperFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/core/StandardWrapperValve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/deploy/ApplicationParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/deploy/ContextEjb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/deploy/ContextEnvironment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/deploy/ContextLocalEjb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/deploy/ContextResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/deploy/ContextResourceLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/deploy/ErrorPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/deploy/FilterDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/deploy/FilterMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/deploy/LoginConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/deploy/NamingResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/deploy/ResourceParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/deploy/SecurityCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/deploy/SecurityConstraint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/deploy/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/loader/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/loader/Extension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/loader/LocalStrings.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/loader/LocalStrings_ja.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/loader/Reloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/loader/ResourceEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/loader/StandardClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/loader/WebappClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/loader/WebappLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/logger/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/logger/FileLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/logger/LocalStrings.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/logger/LocalStrings_es.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/logger/LocalStrings_ja.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/logger/LoggerBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/logger/SystemErrLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/logger/SystemOutLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/mbeans/ClassNameMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/mbeans/ConnectorMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/mbeans/ContextEnvironmentMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/mbeans/ContextResourceLinkMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/mbeans/ContextResourceMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/mbeans/DefaultContextMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/mbeans/GlobalResourcesLifecycleListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/mbeans/GroupMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/mbeans/MBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/mbeans/MBeanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/mbeans/NamingResourcesMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/mbeans/RoleMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/mbeans/ServerLifecycleListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/mbeans/StandardContextMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/mbeans/StandardEngineMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/mbeans/StandardHostMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/mbeans/StandardServerMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/mbeans/StandardServiceMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/mbeans/UserMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/mbeans/mbeans-descriptors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/net/DefaultServerSocketFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/net/SSLServerSocketFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/net/ServerSocketFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/realm/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/realm/GenericPrincipal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/realm/JAASCallbackHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/realm/JAASMemoryLoginModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/realm/JAASRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/realm/JDBCRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/realm/JNDIRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/realm/LocalStrings.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/realm/LocalStrings_es.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/realm/LocalStrings_ja.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/realm/MemoryRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/realm/MemoryRuleSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/realm/RealmBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/realm/UserDatabaseRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/servlets/CGIServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/servlets/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/servlets/DefaultServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/servlets/HTMLManagerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/servlets/InvokerHttpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/servlets/InvokerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/servlets/LocalStrings.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/servlets/LocalStrings_ja.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/servlets/ManagerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/servlets/WebdavServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/session/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/session/DistributedManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/session/FileStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/session/JDBCStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/session/LocalStrings.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/session/LocalStrings_ja.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/session/ManagerBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/session/PersistentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/session/PersistentManagerBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/session/StandardManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/session/StandardSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/session/StandardSessionFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/session/StoreBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ssi/ByteArrayServletOutputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ssi/ResponseIncludeWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ssi/SSICommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ssi/SSIConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ssi/SSIEcho.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ssi/SSIExec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ssi/SSIExternalResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ssi/SSIFlastmod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ssi/SSIFsize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ssi/SSIInclude.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ssi/SSIMediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ssi/SSIPrintenv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ssi/SSIProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ssi/SSIServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ssi/SSIServletExternalResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ssi/SSIServletRequestUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ssi/SSISet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/ssi/SSIStopProcessingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/Authenticators.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/Bootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/BootstrapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/BootstrapServiceContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/Catalina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/CatalinaManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/CatalinaManagerMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/CatalinaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/ClassLoaderFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/ContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/ContextRuleSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/CopyParentClassLoaderRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/Embedded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/EmbeddedManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/EmbeddedManagerMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/EngineConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/EngineRuleSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/HomesUserDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/HostConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/HostRuleSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/LifecycleListenerRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/LocalStrings.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/LocalStrings_ja.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/NamingRuleSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/PasswdUserDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/SecurityClassLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/TldRuleSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/Tool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/UserConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/UserDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/startup/WebRuleSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/users/AbstractGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/users/AbstractRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/users/AbstractUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/users/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/users/LocalStrings.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/users/MemoryGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/users/MemoryRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/users/MemoryUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/users/MemoryUserDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/users/MemoryUserDatabaseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/Base64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/CGIProcessEnvironment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/CharsetMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/CharsetMapperDefault.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/CookieTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/CustomObjectInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/DOMWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/DateTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/Enumerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/FastDateFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/FastHttpDateFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/HexUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/IOTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/InstanceSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/LifecycleSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/LocalStrings.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/LocalStrings_es.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/LocalStrings_ja.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/MD5Encoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/MIME2Java.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/ParameterMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/ProcessEnvironment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/ProcessHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/RequestUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/ResourceSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/ServerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/ServerInfo.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/Strftime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/StringManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/StringParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/URL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/URLEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/util/XMLWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/valves/AccessLogValve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/valves/CertificatesValve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/valves/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/valves/ErrorDispatcherValve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/valves/ErrorReportValve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/valves/JDBCAccessLogValve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/valves/LocalStrings.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/valves/LocalStrings_es.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/valves/LocalStrings_ja.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/valves/RemoteAddrValve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/valves/RemoteHostValve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/valves/RequestDumperValve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/valves/RequestFilterValve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/catalina/valves/ValveBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/ContextAccessController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/ContextBindings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/EjbRef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/JndiPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/LocalStrings.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/LocalStrings_es.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/LocalStrings_ja.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/NameParserImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/NamingContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/NamingContextBindingsEnumeration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/NamingContextEnumeration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/NamingEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/NamingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/NamingServiceMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/ResourceEnvRef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/ResourceLinkRef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/ResourceRef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/SelectorContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/StringManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/TransactionRef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/java/javaURLContextFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/resources/BaseDirContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/resources/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/resources/DirContextURLConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/resources/DirContextURLStreamHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/resources/DirContextURLStreamHandlerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/resources/FileDirContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/resources/LocalStrings.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/resources/LocalStrings_ja.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/resources/ProxyDirContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/resources/RecyclableNamingEnumeration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/resources/Resource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/resources/ResourceAttributes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/resources/WARDirContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/apache/naming/resources/jndi/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/py4j/Bootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webroot/ModernServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webroot/ModernServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webroot/PrimitiveServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webroot/PrimitiveServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webroot/SessionServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webroot/images/logo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webroot/index.html" afterDir="false" />
+    <list default="true" id="75b3b1cc-8e6d-4dea-a1f7-5d61968b37bf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py4jtomcat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/py4jtomcat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/py4j/Request.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/py4j/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/py4j/Bootstrap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webroot/PrimitiveServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/webroot/PrimitiveServlet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -422,51 +17,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Bootstrap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/py4j/Bootstrap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocalStrings.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/servlets/LocalStrings.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-          <provider editor-type-id="ResourceBundle" />
-        </entry>
-      </file>
       <file leaf-file-name="ModernServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webroot/ModernServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+            <state relative-caret-position="208">
+              <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bootstrap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/startup/Bootstrap.java">
+      <file leaf-file-name="PrimitiveServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webroot/PrimitiveServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+            <state relative-caret-position="208">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocalStrings.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/core/LocalStrings.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="17" column="59" lean-forward="true" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-            </state>
-          </provider>
-          <provider editor-type-id="ResourceBundle" />
         </entry>
       </file>
     </leaf>
@@ -475,6 +44,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Singleton" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -495,7 +65,29 @@
         <option value="$PROJECT_DIR$/src/org/apache/catalina/loader/WebappClassLoader.java" />
         <option value="$PROJECT_DIR$/src/org/apache/naming/resources/DirContextURLConnection.java" />
         <option value="$PROJECT_DIR$/src/org/apache/catalina/loader/WebappLoader.java" />
+        <option value="$PROJECT_DIR$/src/org/py4j/ServletProcessor2.java" />
+        <option value="$PROJECT_DIR$/src/org/py4j/HttpResponse.java" />
         <option value="$PROJECT_DIR$/src/org/py4j/Bootstrap.java" />
+        <option value="$PROJECT_DIR$/src/ex03/pyrmont/StaticResourceProcessor.java" />
+        <option value="$PROJECT_DIR$/src/ex03/pyrmont/connector/http/HttpProcessor.java" />
+        <option value="$PROJECT_DIR$/src/org/py4j/HttpRequestLine.java" />
+        <option value="$PROJECT_DIR$/src/org/py4j/HttpHeader.java" />
+        <option value="$PROJECT_DIR$/src/org/py4j/SocketInputStream.java" />
+        <option value="$PROJECT_DIR$/src/org/py4j/HttpRequest.java" />
+        <option value="$PROJECT_DIR$/src/org/py4j/HttpConnector.java" />
+        <option value="$PROJECT_DIR$/src/org/py4j/Constants.java" />
+        <option value="$PROJECT_DIR$/src/org/py4j/HttpProcessor.java" />
+        <option value="$PROJECT_DIR$/src/org/py4j/startup/Bootstrap.java" />
+        <option value="$PROJECT_DIR$/src/org/py4j/ServletProcessor.java" />
+        <option value="$PROJECT_DIR$/src/org/py4j/StaticResourceProcessor.java" />
+        <option value="$PROJECT_DIR$/src/org/py4j/connector/http/HttpRequest.java" />
+        <option value="$PROJECT_DIR$/src/org/py4j/connector/RequestStream.java" />
+        <option value="$PROJECT_DIR$/src/org/py4j/connector/ResponseStream.java" />
+        <option value="$PROJECT_DIR$/src/org/py4j/connector/http/Constants.java" />
+        <option value="$PROJECT_DIR$/src/org/py4j/connector/http/HttpProcessor.java" />
+        <option value="$PROJECT_DIR$/webroot/index.html" />
+        <option value="$PROJECT_DIR$/src/org/py4j/connector/http/HttpResponse.java" />
+        <option value="$PROJECT_DIR$/webroot/PrimitiveServlet.java" />
       </list>
     </option>
   </component>
@@ -575,6 +167,36 @@
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="py4j" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="py4j-tomcat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py4jtomcat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="py4j" type="462c0819:PsiDirectoryNode" />
+              <item name="connector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="py4j-tomcat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py4jtomcat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="py4j" type="462c0819:PsiDirectoryNode" />
+              <item name="connector" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="py4j-tomcat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py4jtomcat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="py4j" type="462c0819:PsiDirectoryNode" />
+              <item name="startup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="py4j-tomcat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py4jtomcat" type="462c0819:PsiDirectoryNode" />
+              <item name="webroot" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -590,13 +212,13 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.startup.StartupConfigurable" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\py4jtomcat" />
       <recent name="D:\py4jtomcat\src" />
+      <recent name="D:\py4jtomcat\src\org\py4j" />
+      <recent name="D:\py4jtomcat" />
       <recent name="D:\py4jtomcat\lib" />
     </key>
   </component>
@@ -617,9 +239,9 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration name="Bootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.py4j.Bootstrap" />
+      <option name="MAIN_CLASS_NAME" value="org.py4j.startup.Bootstrap" />
       <module name="py4jtomcat" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.py4j.*" />
@@ -684,7 +306,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527994604834</updated>
-      <workItem from="1527994609707" duration="1118000" />
+      <workItem from="1527994609707" duration="12044000" />
     </task>
     <task id="LOCAL-00001" summary="change to common java project">
       <created>1527994692900</created>
@@ -693,11 +315,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527994692900</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial project">
+      <created>1527995927108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1527995927108</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1118000" />
+    <option name="totallyTimeSpent" value="12044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -706,7 +335,7 @@
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32729805" />
+      <window_info anchor="bottom" id="Messages" weight="0.32729805" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -714,11 +343,11 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286908" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32729805" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24967907" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24967907" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -726,7 +355,7 @@
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39972144" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -746,99 +375,37 @@
     <MESSAGE value="initial project" />
     <option name="LAST_COMMIT_MESSAGE" value="initial project" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/py4j/connector/http/HttpProcessor.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="10" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>((SocketInputStream)input).read(buffer)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>input.read(buffer)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/Authenticator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/naming/java/javaURLContextFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="80" column="17" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/Realm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/ServerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/naming/NameParserImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/naming/NamingContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1407">
-          <caret line="90" column="13" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/naming/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/naming/EjbRef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="88" column="40" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/naming-common.jar!/org/apache/naming/factory/Constants.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="52">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py4jtomcat.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4167" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/servlets/WebdavServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="1851" column="51" selection-start-line="1851" selection-start-column="51" selection-end-line="1851" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/apache/naming/NamingContextEnumeration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -919,22 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/util/StringManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3666">
-          <folding>
-            <element signature="e#0#8619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/py4j/Bootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/servlets/LocalStrings.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -942,13 +493,6 @@
         </state>
       </provider>
       <provider editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/ModernServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/startup/Bootstrap.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -959,11 +503,342 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/core/LocalStrings.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="17" column="59" lean-forward="true" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+        <state relative-caret-position="486">
+          <caret line="157" column="82" lean-forward="true" selection-start-line="157" selection-start-column="82" selection-end-line="157" selection-end-column="82" />
         </state>
       </provider>
       <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_25_x64/src.zip!/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="227" column="7" lean-forward="true" selection-start-line="227" selection-start-column="7" selection-end-line="227" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/servlet.jar!/javax/servlet/Servlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex03/pyrmont/connector/http/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex03/pyrmont/connector/http/HttpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185">
+          <caret line="296" column="44" selection-start-line="296" selection-start-column="44" selection-end-line="296" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex03/pyrmont/connector/http/HttpConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex03/pyrmont/StaticResourceProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex03/pyrmont/connector/http/HttpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex03/pyrmont/connector/http/HttpProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/HttpRequestLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1258">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1976">
+          <caret line="287" selection-start-line="287" selection-end-line="287" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/LocalStrings.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/LocalStrings_es.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/LocalStrings_ja.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/HttpHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/HttpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/HttpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="119" column="16" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/HttpProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="52" column="42" lean-forward="true" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/HttpConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/Bootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/ServletProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/connector/http/HttpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="210" column="25" selection-start-line="210" selection-start-column="25" selection-end-line="210" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/connector/RequestStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2598">
+          <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/connector/http/HttpRequestFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/connector/http/HttpRequestLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/connector/ResponseStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/StaticResourceProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/connector/http/HttpProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/util/StringManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="249" selection-start-line="249" selection-end-line="249" />
+          <folding>
+            <element signature="e#0#8619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/connector/http/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="105" column="45" lean-forward="true" selection-start-line="105" selection-start-column="45" selection-end-line="105" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ex03/pyrmont/startup/Bootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/connector/http/HttpResponseFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/connector/http/HttpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6162">
+          <caret line="247" lean-forward="true" selection-start-line="247" selection-end-line="247" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#12320#12321#0" expanded="true" />
+            <element signature="e#12341#12342#0" expanded="true" />
+            <element signature="e#12390#12391#0" expanded="true" />
+            <element signature="e#12429#12430#0" expanded="true" />
+            <element signature="e#12470#12471#0" expanded="true" />
+            <element signature="e#12501#12502#0" expanded="true" />
+            <element signature="e#12542#12543#0" expanded="true" />
+            <element signature="e#12563#12564#0" expanded="true" />
+            <element signature="e#12821#12822#0" expanded="true" />
+            <element signature="e#12839#12840#0" expanded="true" />
+            <element signature="e#13005#13006#0" expanded="true" />
+            <element signature="e#13026#13027#0" expanded="true" />
+            <element signature="e#13522#13523#0" expanded="true" />
+            <element signature="e#13550#13551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/connector/http/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/connector/http/HttpHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-858">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/connector/http/HttpConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/startup/Bootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/ModernServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/PrimitiveServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
