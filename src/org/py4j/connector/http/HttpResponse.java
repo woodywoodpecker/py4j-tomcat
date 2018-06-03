@@ -473,8 +473,6 @@ public class HttpResponse implements HttpServletResponse {
     public void setContentLength(int length) {
         if (isCommitted())
             return;
-//    if (included)
-        //     return;     // Ignore any call from an included servlet
         this.contentLength = length;
     }
 
@@ -484,16 +482,11 @@ public class HttpResponse implements HttpServletResponse {
     public void setDateHeader(String name, long value) {
         if (isCommitted())
             return;
-//    if (included)
-        //    return;     // Ignore any call from an included servlet
         setHeader(name, format.format(new Date(value)));
     }
 
     public void setHeader(String name, String value) {
-        if (isCommitted())
-            return;
-//    if (included)
-        //    return;     // Ignore any call from an included servlet
+        if (isCommitted()) return;
         ArrayList values = new ArrayList();
         values.add(value);
         synchronized (headers) {
@@ -505,7 +498,7 @@ public class HttpResponse implements HttpServletResponse {
             try {
                 contentLength = Integer.parseInt(value);
             } catch (NumberFormatException e) {
-                ;
+
             }
             if (contentLength >= 0)
                 setContentLength(contentLength);
@@ -517,18 +510,12 @@ public class HttpResponse implements HttpServletResponse {
     public void setIntHeader(String name, int value) {
         if (isCommitted())
             return;
-        //if (included)
-        //return;     // Ignore any call from an included servlet
         setHeader(name, "" + value);
     }
 
     public void setLocale(Locale locale) {
         if (isCommitted())
             return;
-        //if (included)
-        //return;     // Ignore any call from an included servlet
-
-        // super.setLocale(locale);
         String language = locale.getLanguage();
         if ((language != null) && (language.length() > 0)) {
             String country = locale.getCountry();
