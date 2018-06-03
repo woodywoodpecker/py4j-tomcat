@@ -277,9 +277,9 @@ public class HttpResponse implements HttpServletResponse {
             File file = new File(Constants.WEB_ROOT, request.getRequestURI());
             fis = new FileInputStream(file);
 
-      /*
-           这个地方是个非常容易踩到的坑，注意下面的message格式，如果不对，浏览器是不会正常显示的
-       */
+            /*
+               这个地方是个非常容易踩到的坑，注意下面的message格式，如果不对，浏览器是不会正常显示的
+            */
             String okMessage = "HTTP/1.1 200 OK\r\n" +
                     "Content-Type: text/html\r\n" +
                     "\r\n";
@@ -355,16 +355,12 @@ public class HttpResponse implements HttpServletResponse {
     public void addDateHeader(String name, long value) {
         if (isCommitted())
             return;
-//    if (included)
-        //          return;     // Ignore any call from an included servlet
         addHeader(name, format.format(new Date(value)));
     }
 
     public void addHeader(String name, String value) {
         if (isCommitted())
             return;
-//        if (included)
-        //          return;     // Ignore any call from an included servlet
         synchronized (headers) {
             ArrayList values = (ArrayList) headers.get(name);
             if (values == null) {
@@ -379,8 +375,6 @@ public class HttpResponse implements HttpServletResponse {
     public void addIntHeader(String name, int value) {
         if (isCommitted())
             return;
-//    if (included)
-        //    return;     // Ignore any call from an included servlet
         addHeader(name, "" + value);
     }
 
