@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75b3b1cc-8e6d-4dea-a1f7-5d61968b37bf" name="Default" comment="code refactor">
+    <list default="true" id="75b3b1cc-8e6d-4dea-a1f7-5d61968b37bf" name="Default" comment="apply default connector from catalina">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/py4j/startup/Bootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/py4j/startup/Bootstrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpProcessor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +15,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="HttpConnector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpConnector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="414" selection-start-line="414" selection-end-line="414" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpProcessor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="999" column="44" lean-forward="true" selection-start-line="999" selection-start-column="44" selection-end-line="999" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpResponseImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpResponseImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="597">
+              <caret line="221" column="22" lean-forward="true" selection-start-line="221" selection-start-column="22" selection-end-line="221" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SimpleContainer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/py4j/SimpleContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-133">
-              <caret line="170" column="13" lean-forward="true" selection-start-line="170" selection-start-column="13" selection-end-line="170" selection-end-column="13" />
+            <state relative-caret-position="311">
+              <caret line="194" selection-start-line="194" selection-end-line="194" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2499#2500#0" expanded="true" />
@@ -31,38 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServletProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/py4j/ServletProcessor.java">
+      <file leaf-file-name="HttpRequestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/HttpRequestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bootstrap.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/py4j/startup/Bootstrap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpConnector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpConnector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="1154" column="23" lean-forward="true" selection-start-line="1154" selection-start-column="23" selection-end-line="1154" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="902" selection-start-line="902" selection-end-line="902" />
             </state>
           </provider>
         </entry>
@@ -80,6 +83,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>normalized.indexOf(&quot;%25&quot;)</find>
+      <find>await</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -131,6 +135,8 @@
         <option value="$PROJECT_DIR$/src/org/py4j/connector/http/HttpResponse.java" />
         <option value="$PROJECT_DIR$/src/org/py4j/connector/http/HttpConnector.java" />
         <option value="$PROJECT_DIR$/src/org/py4j/startup/Bootstrap.java" />
+        <option value="$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpProcessor.java" />
+        <option value="$PROJECT_DIR$/src/org/apache/catalina/connector/HttpResponseBase.java" />
       </list>
     </option>
   </component>
@@ -209,14 +215,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="py4j" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="py4j-tomcat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py4jtomcat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="py4j" type="462c0819:PsiDirectoryNode" />
-              <item name="connector" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="py4j-tomcat" type="b2602c69:ProjectViewProjectNode" />
@@ -381,11 +379,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528037908992</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="apply default connector from catalina">
+      <created>1528069059265</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1528069059265</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18175000" />
+    <option name="totallyTimeSpent" value="23373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -412,7 +417,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32729805" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24967907" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24967907" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
@@ -435,22 +440,23 @@
     <MESSAGE value="make index.html feature work" />
     <MESSAGE value="code format" />
     <MESSAGE value="code refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="code refactor" />
+    <MESSAGE value="apply default connector from catalina" />
+    <option name="LAST_COMMIT_MESSAGE" value="apply default connector from catalina" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/org/py4j/connector/http/HttpConnector.java</url>
-          <line>35</line>
+          <url>file://$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpProcessor.java</url>
+          <line>963</line>
           <properties />
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="14" />
+      <option name="time" value="24" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -468,16 +474,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ex03/pyrmont/StaticResourceProcessor.java" />
-    <entry file="file://$PROJECT_DIR$/src/ex03/pyrmont/connector/http/HttpRequest.java" />
-    <entry file="file://$PROJECT_DIR$/src/ex03/pyrmont/connector/http/HttpProcessor.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/py4j/HttpRequestLine.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/py4j/SocketInputStream.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/py4j/LocalStrings.properties" />
-    <entry file="file://$PROJECT_DIR$/src/org/py4j/LocalStrings_es.properties" />
-    <entry file="file://$PROJECT_DIR$/src/org/py4j/LocalStrings_ja.properties" />
-    <entry file="file://$PROJECT_DIR$/src/org/py4j/HttpHeader.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/py4j/HttpRequest.java" />
     <entry file="file://$PROJECT_DIR$/src/org/py4j/HttpResponse.java" />
     <entry file="file://$PROJECT_DIR$/src/org/py4j/HttpProcessor.java" />
     <entry file="file://$PROJECT_DIR$/src/org/py4j/HttpConnector.java" />
@@ -578,13 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="803" column="50" lean-forward="true" selection-start-line="803" selection-start-column="50" selection-end-line="803" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/servlet.jar!/javax/servlet/Servlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -610,6 +599,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1248">
           <caret line="179" column="13" lean-forward="true" selection-start-line="179" selection-start-column="13" selection-end-line="179" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#17708#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -702,30 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="1154" column="23" lean-forward="true" selection-start-line="1154" selection-start-column="23" selection-end-line="1154" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/py4j/SimpleContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="170" column="13" lean-forward="true" selection-start-line="170" selection-start-column="13" selection-end-line="170" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2499#2500#0" expanded="true" />
-            <element signature="e#2538#2539#0" expanded="true" />
-            <element signature="e#2721#2722#0" expanded="true" />
-            <element signature="e#2748#2749#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/py4j/ServletProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
@@ -736,13 +704,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/http10/HttpProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5847">
+          <caret line="681" column="41" selection-start-line="681" selection-start-column="41" selection-end-line="681" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/net/ServerSocketFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="134" column="24" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/util/LifecycleSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/Lifecycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_25_x64/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="243" column="58" lean-forward="true" selection-start-line="243" selection-start-column="58" selection-end-line="243" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/py4j/startup/Bootstrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        <state relative-caret-position="284">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpRequestImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="133" column="5" lean-forward="true" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="414" selection-start-line="414" selection-end-line="414" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/HttpRequestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="902" selection-start-line="902" selection-end-line="902" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/SimpleContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="194" selection-start-line="194" selection-end-line="194" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2499#2500#0" expanded="true" />
+            <element signature="e#2538#2539#0" expanded="true" />
+            <element signature="e#2721#2722#0" expanded="true" />
+            <element signature="e#2748#2749#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/ResponseBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="796" column="26" lean-forward="true" selection-start-line="796" selection-start-column="26" selection-end-line="796" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/HttpResponseBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="787" column="23" lean-forward="true" selection-start-line="787" selection-start-column="23" selection-end-line="787" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpResponseImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="221" column="22" lean-forward="true" selection-start-line="221" selection-start-column="22" selection-end-line="221" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="999" column="44" lean-forward="true" selection-start-line="999" selection-start-column="44" selection-end-line="999" selection-end-column="44" />
         </state>
       </provider>
     </entry>

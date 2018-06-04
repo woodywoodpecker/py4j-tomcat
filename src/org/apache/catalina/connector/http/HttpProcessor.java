@@ -1,32 +1,19 @@
 package org.apache.catalina.connector.http;
 
 
-import java.io.EOFException;
-import java.io.InterruptedIOException;
-import java.io.InputStream;
-import java.io.IOException;
-import java.io.OutputStream;
+import org.apache.catalina.*;
+import org.apache.catalina.util.*;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.*;
 import java.net.Socket;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Locale;
 import java.util.TreeMap;
-import javax.servlet.ServletException;
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import org.apache.catalina.Globals;
-import org.apache.catalina.HttpRequest;
-import org.apache.catalina.Lifecycle;
-import org.apache.catalina.LifecycleException;
-import org.apache.catalina.LifecycleListener;
-import org.apache.catalina.Logger;
-import org.apache.catalina.util.FastHttpDateFormat;
-import org.apache.catalina.util.LifecycleSupport;
-import org.apache.catalina.util.RequestUtil;
-import org.apache.catalina.util.ServerInfo;
-import org.apache.catalina.util.StringManager;
-import org.apache.catalina.util.StringParser;
 
 
 /**
@@ -288,6 +275,9 @@ final class HttpProcessor
     synchronized void assign(Socket socket) {
 
         // Wait for the Processor to get the previous Socket
+        // 初始化的时候，因为available是false，所以连接器会把client socket传进来，
+        // 把client socket存放到实例的this.socket上。然后将available设置成true，
+        // 唤醒所有线程。
         while (available) {
             try {
                 wait();
@@ -314,8 +304,11 @@ final class HttpProcessor
      * if we are supposed to shut down.
      */
     private synchronized Socket await() {
-
         // Wait for the Connector to provide a new Socket
+        // 因为处理器线程在初始化的时候，available是false，所以线程会进入wait状态，
+        // 直到连接器线程通过assign将线程唤醒，把实例上的socket作为返回值返回，
+        // 这个时候，处理器线程里的run方法在执行的时候拿到这个socket进行后续处理，
+        // 而我们的await方法则将available设置成false，让assign可以正常工作，自己进入wait
         while (!available) {
             try {
                 wait();
