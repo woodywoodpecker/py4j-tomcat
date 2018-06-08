@@ -65,29 +65,18 @@
 package org.apache.catalina.core;
 
 
-import java.io.PrintStream;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.Stack;
-import javax.servlet.Servlet;
-import javax.servlet.ServletConfig;
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
-import javax.servlet.SingleThreadModel;
-import javax.servlet.UnavailableException;
-import org.apache.catalina.Container;
-import org.apache.catalina.ContainerServlet;
-import org.apache.catalina.Context;
-import org.apache.catalina.InstanceEvent;
-import org.apache.catalina.InstanceListener;
-import org.apache.catalina.LifecycleException;
-import org.apache.catalina.Loader;
-import org.apache.catalina.Wrapper;
+import org.apache.catalina.*;
 import org.apache.catalina.connector.HttpRequestBase;
 import org.apache.catalina.connector.HttpResponseBase;
 import org.apache.catalina.util.Enumerator;
 import org.apache.catalina.util.InstanceSupport;
 import org.apache.tomcat.util.log.SystemLogHandler;
+
+import javax.servlet.*;
+import java.io.PrintStream;
+import java.util.Enumeration;
+import java.util.HashMap;
+import java.util.Stack;
 
 
 /**
@@ -428,7 +417,7 @@ public final class StandardWrapper
      * Set the maximum number of instances that will be allocated when a single
      * thread model servlet is used.
      *
-     * @param maxInstnces New value of maxInstances
+     * @param maxInstances New value of maxInstances
      */
     public void setMaxInstances(int maxInstances) {
 
@@ -469,7 +458,7 @@ public final class StandardWrapper
     /**
      * Set the run-as identity for this servlet.
      *
-     * @param value New run-as identity value
+     * @param runAs New run-as identity value
      */
     public void setRunAs(String runAs) {
 
@@ -1239,7 +1228,7 @@ System.out.println("after calling setWrapper");
      * container provided servlet class that should be loaded by the
      * server class loader.
      *
-     * @param name Name of the class to be checked
+     * @param classname Name of the class to be checked
      */
     private boolean isContainerProvidedServlet(String classname) {
 

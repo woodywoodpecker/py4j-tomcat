@@ -1,10 +1,10 @@
 package org.apache.catalina;
 
 
+import javax.naming.directory.DirContext;
+import javax.servlet.ServletException;
 import java.beans.PropertyChangeListener;
 import java.io.IOException;
-import javax.servlet.ServletException;
-import javax.naming.directory.DirContext;
 
 
 /**
@@ -177,7 +177,7 @@ public interface Container {
     /**
      * Set the Cluster with which this Container is associated.
      *
-     * @param connector The Connector to be added
+     * @param cluster The Cluster to be added
      */
     public void setCluster(Cluster cluster);
 
