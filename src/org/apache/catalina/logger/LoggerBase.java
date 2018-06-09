@@ -65,14 +65,15 @@
 package org.apache.catalina.logger;
 
 
-import java.beans.PropertyChangeSupport;
-import java.beans.PropertyChangeListener;
-import java.io.CharArrayWriter;
-import java.io.PrintWriter;
-import javax.servlet.ServletException;
 import org.apache.catalina.Container;
 import org.apache.catalina.LifecycleException;
 import org.apache.catalina.Logger;
+
+import javax.servlet.ServletException;
+import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangeSupport;
+import java.io.CharArrayWriter;
+import java.io.PrintWriter;
 
 
 /**
@@ -84,8 +85,7 @@ import org.apache.catalina.Logger;
  * @version $Revision: 1.5 $ $Date: 2002/01/25 20:12:20 $
  */
 
-public abstract class LoggerBase
-    implements Logger {
+public abstract class LoggerBase implements Logger {
 
 
     // ----------------------------------------------------- Instance Variables
@@ -106,8 +106,7 @@ public abstract class LoggerBase
     /**
      * The descriptive information about this implementation.
      */
-    protected static final String info =
-        "org.apache.catalina.logger.LoggerBase/1.0";
+    protected static final String info = "org.apache.catalina.logger.LoggerBase/1.0";
 
 
     /**
@@ -211,7 +210,7 @@ public abstract class LoggerBase
      * Set the verbosity level of this logger.  Messages logged with a
      * higher verbosity than this level will be silently ignored.
      *
-     * @param verbosityLevel The new verbosity level, as a string
+     * @param verbosity The new verbosity level, as a string
      */
     public void setVerbosityLevel(String verbosity) {
 
@@ -249,7 +248,7 @@ public abstract class LoggerBase
      * log.  The name and type of the servlet log is specific to the
      * servlet container.  This message will be logged unconditionally.
      *
-     * @param message A <code>String</code> specifying the message to be
+     * @param msg A <code>String</code> specifying the message to be
      *  written to the log file
      */
     public abstract void log(String msg);

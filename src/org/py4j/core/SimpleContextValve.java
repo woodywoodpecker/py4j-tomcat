@@ -24,7 +24,8 @@ public class SimpleContextValve implements Valve, Contained {
         HttpServletRequest hreq = (HttpServletRequest) request.getRequest();
         String contextPath = hreq.getContextPath();
         String requestURI = ((HttpRequest) request).getDecodedRequestURI();
-        String relativeURI = requestURI.substring(contextPath.length()).toUpperCase();
+        String relativeURI =
+                requestURI.substring(contextPath.length()).toUpperCase();
 
         Context context = (Context) getContainer();
         // Select the Wrapper to be used for this Request

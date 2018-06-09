@@ -17,7 +17,8 @@ public class SimpleContextMapper implements Mapper {
 
     public void setContainer(Container container) {
         if (!(container instanceof SimpleContext))
-            throw new IllegalArgumentException("Illegal type of container");
+            throw new IllegalArgumentException
+                    ("Illegal type of container");
         context = (SimpleContext) container;
     }
 

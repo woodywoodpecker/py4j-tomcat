@@ -47,7 +47,8 @@ public class SimplePipeline implements Pipeline, Lifecycle {
         return valves;
     }
 
-    public void invoke(Request request, Response response) throws IOException, ServletException {
+    public void invoke(Request request, Response response)
+            throws IOException, ServletException {
         // Invoke the first Valve in this pipeline for this request
         (new StandardPipelineValveContext()).invokeNext(request, response);
     }
@@ -81,7 +82,8 @@ public class SimplePipeline implements Pipeline, Lifecycle {
             return null;
         }
 
-        public void invokeNext(Request request, Response response) throws IOException, ServletException {
+        public void invokeNext(Request request, Response response)
+                throws IOException, ServletException {
             int subscript = stage;
             stage = stage + 1;
             // Invoke the requested Valve for the current request thread

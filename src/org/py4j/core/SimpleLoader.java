@@ -11,7 +11,8 @@ import java.net.URLStreamHandler;
 
 public class SimpleLoader implements Loader, Lifecycle {
 
-    public static final String WEB_ROOT = System.getProperty("user.dir") + File.separator + "webroot";
+    public static final String WEB_ROOT =
+            System.getProperty("user.dir") + File.separator + "webroot";
     ClassLoader classLoader = null;
     Container container = null;
 

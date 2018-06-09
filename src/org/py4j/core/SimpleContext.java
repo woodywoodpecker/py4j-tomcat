@@ -1,5 +1,8 @@
-package org.py4j.core;
 
+// difference from ex06.pyrmont.core.SimpleContext is that
+// this one defines the private method log, which is called
+// from different places.
+package org.py4j.core;
 
 import org.apache.catalina.*;
 import org.apache.catalina.deploy.*;
@@ -21,6 +24,7 @@ public class SimpleContext implements Context, Pipeline, Lifecycle {
 
     protected HashMap children = new HashMap();
     private Loader loader = null;
+    private Logger logger = null;
     protected LifecycleSupport lifecycle = new LifecycleSupport(this);
     private SimplePipeline pipeline = new SimplePipeline(this);
     private HashMap servletMappings = new HashMap();
@@ -478,10 +482,11 @@ public class SimpleContext implements Context, Pipeline, Lifecycle {
     }
 
     public Logger getLogger() {
-        return null;
+        return logger;
     }
 
     public void setLogger(Logger logger) {
+        this.logger = logger;
     }
 
     public Manager getManager() {
@@ -648,7 +653,7 @@ public class SimpleContext implements Context, Pipeline, Lifecycle {
 
     // implementation of the Lifecycle interface's methods
     public void addLifecycleListener(LifecycleListener listener) {
-        this.lifecycle.addLifecycleListener(listener);
+        lifecycle.addLifecycleListener(listener);
     }
 
     public LifecycleListener[] findLifecycleListeners() {
@@ -656,18 +661,20 @@ public class SimpleContext implements Context, Pipeline, Lifecycle {
     }
 
     public void removeLifecycleListener(LifecycleListener listener) {
-        this.lifecycle.removeLifecycleListener(listener);
+        lifecycle.removeLifecycleListener(listener);
     }
 
     public synchronized void start() throws LifecycleException {
-        if (this.started) throw new LifecycleException("SimpleContext has already started");
+        log("starting Context");
+        if (started)
+            throw new LifecycleException("SimpleContext has already started");
 
         // Notify our interested LifecycleListeners
-        this.lifecycle.fireLifecycleEvent(BEFORE_START_EVENT, null);
-        this.started = true;
+        lifecycle.fireLifecycleEvent(BEFORE_START_EVENT, null);
+        started = true;
         try {
             // Start our subordinate components, if any
-            if ((this.loader != null) && (this.loader instanceof Lifecycle))
+            if ((loader != null) && (loader instanceof Lifecycle))
                 ((Lifecycle) loader).start();
 
             // Start our child containers, if any
@@ -679,29 +686,31 @@ public class SimpleContext implements Context, Pipeline, Lifecycle {
 
             // Start the Valves in our pipeline (including the basic),
             // if any
-            if (this.pipeline instanceof Lifecycle)
-                ((Lifecycle) this.pipeline).start();
+            if (pipeline instanceof Lifecycle)
+                ((Lifecycle) pipeline).start();
             // Notify our interested LifecycleListeners
-            this.lifecycle.fireLifecycleEvent(START_EVENT, null);
+            lifecycle.fireLifecycleEvent(START_EVENT, null);
         } catch (Exception e) {
             e.printStackTrace();
         }
 
         // Notify our interested LifecycleListeners
-        this.lifecycle.fireLifecycleEvent(AFTER_START_EVENT, null);
+        lifecycle.fireLifecycleEvent(AFTER_START_EVENT, null);
+        log("Context started");
     }
 
     public void stop() throws LifecycleException {
+        log("stopping Context");
         if (!started)
             throw new LifecycleException("SimpleContext has not been started");
         // Notify our interested LifecycleListeners
-        this.lifecycle.fireLifecycleEvent(BEFORE_STOP_EVENT, null);
-        this.lifecycle.fireLifecycleEvent(STOP_EVENT, null);
-        this.started = false;
+        lifecycle.fireLifecycleEvent(BEFORE_STOP_EVENT, null);
+        lifecycle.fireLifecycleEvent(STOP_EVENT, null);
+        started = false;
         try {
             // Stop the Valves in our pipeline (including the basic), if any
-            if (this.pipeline instanceof Lifecycle) {
-                ((Lifecycle) this.pipeline).stop();
+            if (pipeline instanceof Lifecycle) {
+                ((Lifecycle) pipeline).stop();
             }
 
             // Stop our child containers, if any
@@ -710,14 +719,20 @@ public class SimpleContext implements Context, Pipeline, Lifecycle {
                 if (children[i] instanceof Lifecycle)
                     ((Lifecycle) children[i]).stop();
             }
-            if ((this.loader != null) && (this.loader instanceof Lifecycle)) {
-                ((Lifecycle) this.loader).stop();
+            if ((loader != null) && (loader instanceof Lifecycle)) {
+                ((Lifecycle) loader).stop();
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
         // Notify our interested LifecycleListeners
-        this.lifecycle.fireLifecycleEvent(AFTER_STOP_EVENT, null);
+        lifecycle.fireLifecycleEvent(AFTER_STOP_EVENT, null);
+        log("Context stopped");
     }
 
+    private void log(String message) {
+        Logger logger = this.getLogger();
+        if (logger != null)
+            logger.log(message);
+    }
 }

@@ -2,46 +2,48 @@ package org.py4j.startup;
 
 import org.apache.catalina.*;
 import org.apache.catalina.connector.http.HttpConnector;
+import org.apache.catalina.logger.FileLogger;
 import org.py4j.core.*;
-import org.py4j.valves.ClientIPLoggerValve;
-import org.py4j.valves.HeaderLoggerValve;
 
 public final class Bootstrap {
     public static void main(String[] args) {
-        HttpConnector connector = new HttpConnector();
+        Connector connector = new HttpConnector();
         Wrapper wrapper1 = new SimpleWrapper();
         wrapper1.setName("Primitive");
         wrapper1.setServletClass("PrimitiveServlet");
         Wrapper wrapper2 = new SimpleWrapper();
         wrapper2.setName("Modern");
         wrapper2.setServletClass("ModernServlet");
+        Loader loader = new SimpleLoader();
 
         Context context = new SimpleContext();
         context.addChild(wrapper1);
         context.addChild(wrapper2);
 
-        Valve valve1 = new HeaderLoggerValve();
-        Valve valve2 = new ClientIPLoggerValve();
-
-        ((Pipeline) context).addValve(valve1);
-        ((Pipeline) context).addValve(valve2);
-
         Mapper mapper = new SimpleContextMapper();
         mapper.setProtocol("http");
-
         LifecycleListener listener = new SimpleContextLifecycleListener();
-        ((SimpleContext) context).addLifecycleListener(listener);
-
+        ((Lifecycle) context).addLifecycleListener(listener);
         context.addMapper(mapper);
-        Loader loader = new SimpleLoader();
         context.setLoader(loader);
         // context.addServletMapping(pattern, name);
         context.addServletMapping("/Primitive", "Primitive");
         context.addServletMapping("/Modern", "Modern");
+
+        // ------ add logger --------
+        System.setProperty("catalina.base", System.getProperty("user.dir"));
+        FileLogger logger = new FileLogger();
+        logger.setPrefix("FileLog_");
+        logger.setSuffix(".txt");
+        logger.setTimestamp(true);
+        logger.setDirectory("webroot");
+        context.setLogger(logger);
+
+        //---------------------------
+
         connector.setContainer(context);
         try {
             connector.initialize();
-            //connector.start();
             ((Lifecycle) connector).start();
             ((Lifecycle) context).start();
 
