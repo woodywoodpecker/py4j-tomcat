@@ -4,6 +4,7 @@ package org.py4j.core;
 import org.apache.catalina.*;
 import org.apache.catalina.deploy.*;
 import org.apache.catalina.util.CharsetMapper;
+import org.apache.catalina.util.LifecycleSupport;
 
 import javax.naming.directory.DirContext;
 import javax.servlet.ServletContext;
@@ -12,19 +13,21 @@ import java.beans.PropertyChangeListener;
 import java.io.IOException;
 import java.util.HashMap;
 
-public class SimpleContext implements Context, Pipeline {
+public class SimpleContext implements Context, Pipeline, Lifecycle {
 
     public SimpleContext() {
         pipeline.setBasic(new SimpleContextValve());
     }
 
     protected HashMap children = new HashMap();
-    protected Loader loader = null;
-    protected SimplePipeline pipeline = new SimplePipeline(this);
-    protected HashMap servletMappings = new HashMap();
+    private Loader loader = null;
+    protected LifecycleSupport lifecycle = new LifecycleSupport(this);
+    private SimplePipeline pipeline = new SimplePipeline(this);
+    private HashMap servletMappings = new HashMap();
     protected Mapper mapper = null;
     protected HashMap mappers = new HashMap();
     private Container parent = null;
+    protected boolean started = false;
 
     public Object[] getApplicationListeners() {
         return null;
@@ -593,7 +596,8 @@ public class SimpleContext implements Context, Pipeline {
         return null;
     }
 
-    public void invoke(Request request, Response response) throws IOException, ServletException {
+    public void invoke(Request request, Response response)
+            throws IOException, ServletException {
         pipeline.invoke(request, response);
     }
 
@@ -640,6 +644,80 @@ public class SimpleContext implements Context, Pipeline {
 
     public void removeValve(Valve valve) {
         pipeline.removeValve(valve);
+    }
+
+    // implementation of the Lifecycle interface's methods
+    public void addLifecycleListener(LifecycleListener listener) {
+        this.lifecycle.addLifecycleListener(listener);
+    }
+
+    public LifecycleListener[] findLifecycleListeners() {
+        return null;
+    }
+
+    public void removeLifecycleListener(LifecycleListener listener) {
+        this.lifecycle.removeLifecycleListener(listener);
+    }
+
+    public synchronized void start() throws LifecycleException {
+        if (this.started) throw new LifecycleException("SimpleContext has already started");
+
+        // Notify our interested LifecycleListeners
+        this.lifecycle.fireLifecycleEvent(BEFORE_START_EVENT, null);
+        this.started = true;
+        try {
+            // Start our subordinate components, if any
+            if ((this.loader != null) && (this.loader instanceof Lifecycle))
+                ((Lifecycle) loader).start();
+
+            // Start our child containers, if any
+            Container children[] = findChildren();
+            for (int i = 0; i < children.length; i++) {
+                if (children[i] instanceof Lifecycle)
+                    ((Lifecycle) children[i]).start();
+            }
+
+            // Start the Valves in our pipeline (including the basic),
+            // if any
+            if (this.pipeline instanceof Lifecycle)
+                ((Lifecycle) this.pipeline).start();
+            // Notify our interested LifecycleListeners
+            this.lifecycle.fireLifecycleEvent(START_EVENT, null);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        // Notify our interested LifecycleListeners
+        this.lifecycle.fireLifecycleEvent(AFTER_START_EVENT, null);
+    }
+
+    public void stop() throws LifecycleException {
+        if (!started)
+            throw new LifecycleException("SimpleContext has not been started");
+        // Notify our interested LifecycleListeners
+        this.lifecycle.fireLifecycleEvent(BEFORE_STOP_EVENT, null);
+        this.lifecycle.fireLifecycleEvent(STOP_EVENT, null);
+        this.started = false;
+        try {
+            // Stop the Valves in our pipeline (including the basic), if any
+            if (this.pipeline instanceof Lifecycle) {
+                ((Lifecycle) this.pipeline).stop();
+            }
+
+            // Stop our child containers, if any
+            Container children[] = findChildren();
+            for (int i = 0; i < children.length; i++) {
+                if (children[i] instanceof Lifecycle)
+                    ((Lifecycle) children[i]).stop();
+            }
+            if ((this.loader != null) && (this.loader instanceof Lifecycle)) {
+                ((Lifecycle) this.loader).stop();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        // Notify our interested LifecycleListeners
+        this.lifecycle.fireLifecycleEvent(AFTER_STOP_EVENT, null);
     }
 
 }

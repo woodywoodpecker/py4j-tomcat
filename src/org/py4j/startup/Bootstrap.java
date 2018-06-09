@@ -2,10 +2,7 @@ package org.py4j.startup;
 
 import org.apache.catalina.*;
 import org.apache.catalina.connector.http.HttpConnector;
-import org.py4j.core.SimpleContext;
-import org.py4j.core.SimpleContextMapper;
-import org.py4j.core.SimpleLoader;
-import org.py4j.core.SimpleWrapper;
+import org.py4j.core.*;
 import org.py4j.valves.ClientIPLoggerValve;
 import org.py4j.valves.HeaderLoggerValve;
 
@@ -31,6 +28,10 @@ public final class Bootstrap {
 
         Mapper mapper = new SimpleContextMapper();
         mapper.setProtocol("http");
+
+        LifecycleListener listener = new SimpleContextLifecycleListener();
+        ((SimpleContext) context).addLifecycleListener(listener);
+
         context.addMapper(mapper);
         Loader loader = new SimpleLoader();
         context.setLoader(loader);
@@ -40,10 +41,13 @@ public final class Bootstrap {
         connector.setContainer(context);
         try {
             connector.initialize();
-            connector.start();
+            //connector.start();
+            ((Lifecycle) connector).start();
+            ((Lifecycle) context).start();
 
             // make the application wait until we press a key.
             System.in.read();
+            ((Lifecycle) context).stop();
         } catch (Exception e) {
             e.printStackTrace();
         }
