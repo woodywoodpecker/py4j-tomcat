@@ -3,12 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="75b3b1cc-8e6d-4dea-a1f7-5d61968b37bf" name="Default" comment="add lifecycle feature">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/apache/catalina/logger/LoggerBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/apache/catalina/logger/LoggerBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/py4j/core/SimpleContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/py4j/core/SimpleContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/py4j/core/SimpleContextLifecycleListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/py4j/core/SimpleContextLifecycleListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/py4j/core/SimpleContextMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/py4j/core/SimpleContextMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/py4j/core/SimpleContextValve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/py4j/core/SimpleContextValve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/py4j/core/SimpleLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/py4j/core/SimpleLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/apache/catalina/loader/WebappClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/apache/catalina/loader/WebappClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/py4j/core/SimpleContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/py4j/core/SimpleContextLifecycleListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/py4j/core/SimpleContextMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/py4j/core/SimpleContextValve.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/py4j/core/SimpleLoader.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/py4j/core/SimplePipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/py4j/core/SimplePipeline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/py4j/core/SimpleWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/py4j/core/SimpleWrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/py4j/core/SimpleWrapperValve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/py4j/core/SimpleWrapperValve.java" afterDir="false" />
@@ -27,82 +27,11 @@
       <file leaf-file-name="Bootstrap.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/py4j/startup/Bootstrap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="46" column="44" lean-forward="true" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+            <state relative-caret-position="361">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpConnector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpConnector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="1035" selection-start-line="1035" selection-end-line="1035" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/util/StringManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2522">
-              <caret line="87" column="28" lean-forward="true" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LifecycleSupport.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/util/LifecycleSupport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="167" selection-start-line="167" selection-end-line="167" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LifecycleEvent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/LifecycleEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="114" selection-start-line="114" selection-end-line="114" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Container.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/Container.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/py4j/core/SimpleContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-              <folding>
-                <element signature="e#7698#7699#0" expanded="true" />
-                <element signature="e#7725#7726#0" expanded="true" />
-                <element signature="e#9898#9899#0" expanded="true" />
-                <element signature="e#9927#9928#0" expanded="true" />
-                <element signature="e#9971#9972#0" expanded="true" />
-                <element signature="e#10007#10008#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileLog_2018-06-09.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/FileLog_2018-06-09.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="80" lean-forward="true" selection-start-column="80" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -133,6 +62,7 @@
       <find>HttpConnector Opening server socket on all host IP addresses</find>
       <find>logger</find>
       <find>httpConnector.starting</find>
+      <find>RegisterCreateUserCoExist</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,13 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ex03/pyrmont/connector/http/HttpProcessor.java" />
-        <option value="$PROJECT_DIR$/src/org/py4j/HttpRequestLine.java" />
-        <option value="$PROJECT_DIR$/src/org/py4j/HttpHeader.java" />
-        <option value="$PROJECT_DIR$/src/org/py4j/SocketInputStream.java" />
-        <option value="$PROJECT_DIR$/src/org/py4j/HttpRequest.java" />
-        <option value="$PROJECT_DIR$/src/org/py4j/HttpConnector.java" />
-        <option value="$PROJECT_DIR$/src/org/py4j/Constants.java" />
         <option value="$PROJECT_DIR$/src/org/py4j/HttpProcessor.java" />
         <option value="$PROJECT_DIR$/webroot/index.html" />
         <option value="$PROJECT_DIR$/webroot/PrimitiveServlet.java" />
@@ -186,12 +109,19 @@
         <option value="$PROJECT_DIR$/src/org/py4j/core/SimpleContextMapper.java" />
         <option value="$PROJECT_DIR$/src/org/py4j/core/SimpleContextValve.java" />
         <option value="$PROJECT_DIR$/src/org/py4j/core/SimpleLoader.java" />
+        <option value="$PROJECT_DIR$/src/org/py4j/core/SimpleContext.java" />
+        <option value="$PROJECT_DIR$/webroot/FileLog_2018-06-09.txt" />
+        <option value="$PROJECT_DIR$/src/test/lifecycle/Engine.java" />
+        <option value="$PROJECT_DIR$/src/test/lifecycle/Startup.java" />
+        <option value="$PROJECT_DIR$/src/test/lifecycle/Car.java" />
+        <option value="$PROJECT_DIR$/src/test/lifecycle/Light.java" />
+        <option value="$PROJECT_DIR$/src/org/apache/catalina/loader/WebappLoader.java" />
+        <option value="$PROJECT_DIR$/src/org/apache/catalina/loader/WebappClassLoader.java" />
+        <option value="$PROJECT_DIR$/src/org/py4j/startup/Bootstrap.java" />
+        <option value="$PROJECT_DIR$/src/org/py4j/core/SimpleContextConfig.java" />
         <option value="$PROJECT_DIR$/src/org/py4j/core/SimplePipeline.java" />
         <option value="$PROJECT_DIR$/src/org/py4j/core/SimpleWrapper.java" />
         <option value="$PROJECT_DIR$/src/org/py4j/core/SimpleWrapperValve.java" />
-        <option value="$PROJECT_DIR$/src/org/py4j/startup/Bootstrap.java" />
-        <option value="$PROJECT_DIR$/src/org/py4j/core/SimpleContext.java" />
-        <option value="$PROJECT_DIR$/webroot/FileLog_2018-06-09.txt" />
       </list>
     </option>
   </component>
@@ -287,14 +217,6 @@
             <path>
               <item name="py4j-tomcat" type="b2602c69:ProjectViewProjectNode" />
               <item name="py4jtomcat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="py4j" type="462c0819:PsiDirectoryNode" />
-              <item name="valves" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="py4j-tomcat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py4jtomcat" type="462c0819:PsiDirectoryNode" />
               <item name="webroot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -307,13 +229,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/src/test/lifecycle/Startup.java&#10;D:/py4jtomcat/src/test/lifecycle/Light.java&#10;D:/py4jtomcat/src/test/lifecycle/Car.java&#10;D:/py4jtomcat/src/test/lifecycle/Engine.java" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/xmlParserAPIs.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -324,15 +247,15 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\py4jtomcat\webroot" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\py4jtomcat\src\org\py4j\startup" />
+      <recent name="D:\py4jtomcat" />
       <recent name="D:\py4jtomcat\src\org\py4j\core" />
+      <recent name="D:\py4jtomcat\src\org\py4j\startup" />
       <recent name="D:\py4jtomcat\src\org\py4j" />
       <recent name="D:\py4jtomcat\webroot" />
-      <recent name="D:\py4jtomcat\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\py4jtomcat\webroot" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -384,6 +307,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="Startup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.lifecycle.Startup" />
+      <module name="py4jtomcat" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.lifecycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -428,10 +362,12 @@
     <list>
       <item itemvalue="Application.Bootstrap" />
       <item itemvalue="Application.Bootstrap1" />
+      <item itemvalue="Application.Startup" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Bootstrap" />
+        <item itemvalue="Application.Startup" />
         <item itemvalue="Application.Bootstrap1" />
       </list>
     </recent_temporary>
@@ -455,6 +391,7 @@
       <workItem from="1528378181263" duration="13076000" />
       <workItem from="1528423617153" duration="11626000" />
       <workItem from="1528511536118" duration="10712000" />
+      <workItem from="1528917272785" duration="7860000" />
     </task>
     <task id="LOCAL-00001" summary="change to common java project">
       <created>1527994692900</created>
@@ -523,7 +460,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77357000" />
+    <option name="totallyTimeSpent" value="94545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -547,10 +484,10 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32729805" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32729805" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.275353" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27856225" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -602,145 +539,12 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/Group.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1770">
-          <caret line="80" column="17" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/Authenticator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.apache.catalina.core.StandardWrapper">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.apache.catalina.core.StandardWrapper</OriginalElement>
-          <nodes>
-            <node x="270.8869047619048" y="80.0">javax.servlet.ServletConfig</node>
-            <node x="130.88690476190476" y="80.0">org.apache.catalina.core.ContainerBase</node>
-            <node x="21.75" y="0.0">org.apache.catalina.Container</node>
-            <node x="138.75" y="0.0">org.apache.catalina.Lifecycle</node>
-            <node x="249.75" y="0.0">org.apache.catalina.Pipeline</node>
-            <node x="0.0" y="80.0">org.apache.catalina.Wrapper</node>
-            <node x="116.25" y="160.0">org.apache.catalina.core.StandardWrapper</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.apache.catalina.core.StandardWrapper" target="org.apache.catalina.Wrapper">
-              <point x="-45.33333333333334" y="-15.0" />
-              <point x="138.91666666666666" y="135.0" />
-              <point x="46.0" y="135.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.apache.catalina.core.ContainerBase" target="org.apache.catalina.Lifecycle">
-              <point x="0.0" y="-15.0" />
-              <point x="190.88690476190476" y="55.0" />
-              <point x="184.25" y="55.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.apache.catalina.Wrapper" target="org.apache.catalina.Container">
-              <point x="0.0" y="-15.0" />
-              <point x="-24.25" y="15.0" />
-            </edge>
-            <edge source="org.apache.catalina.core.StandardWrapper" target="org.apache.catalina.core.ContainerBase">
-              <point x="0.0" y="-15.0" />
-              <point x="184.25" y="135.0" />
-              <point x="190.88690476190476" y="135.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.apache.catalina.core.ContainerBase" target="org.apache.catalina.Container">
-              <point x="-40.0" y="-15.0" />
-              <point x="150.88690476190476" y="55.0" />
-              <point x="94.5" y="55.0" />
-              <point x="24.25" y="15.0" />
-            </edge>
-            <edge source="org.apache.catalina.core.ContainerBase" target="org.apache.catalina.Pipeline">
-              <point x="40.0" y="-15.0" />
-              <point x="230.88690476190476" y="55.0" />
-              <point x="292.75" y="55.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.apache.catalina.core.StandardWrapper" target="javax.servlet.ServletConfig">
-              <point x="45.333333333333314" y="-15.0" />
-              <point x="229.58333333333331" y="135.0" />
-              <point x="328.3869047619048" y="135.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-146.0" y="12.0" />
-          <SelectedNodes>
-            <node>org.apache.catalina.core.StandardWrapper</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/core/StandardWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="1232" column="66" lean-forward="true" selection-start-line="1232" selection-start-column="66" selection-end-line="1232" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/naming/NamingContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/images/logo.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://C:/jdk1.8.0_25_x64/src.zip!/java/net/BindException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.8.0_25_x64/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="177" column="22" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/py4j/startup/Bootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/py4j/SimpleLoader.java" />
     <entry file="file://$PROJECT_DIR$/src/org/py4j/SimpleWrapper.java" />
     <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/core/StandardContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="1608" column="36" lean-forward="true" selection-start-line="1608" selection-start-column="36" selection-end-line="1608" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/core/ContainerBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="352" column="18" selection-start-line="352" selection-start-column="18" selection-end-line="352" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -818,39 +622,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/py4j/SimpleContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4231">
-          <caret line="197" column="21" selection-start-line="197" selection-start-column="21" selection-end-line="197" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#2499#2500#0" expanded="true" />
-            <element signature="e#2538#2539#0" expanded="true" />
-            <element signature="e#2721#2722#0" expanded="true" />
-            <element signature="e#2748#2749#0" expanded="true" />
-            <element signature="e#4222#4223#0" expanded="true" />
-            <element signature="e#4249#4250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/SimpleContainer.java" />
     <entry file="file://$PROJECT_DIR$/webroot/ModernServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-341">
           <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding>
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/Lifecycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="154" column="16" selection-start-line="154" selection-start-column="16" selection-end-line="154" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -896,61 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="250" column="68" lean-forward="true" selection-start-line="250" selection-start-column="68" selection-end-line="250" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#10839#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/py4j/core/SimpleContextLifecycleListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/py4j/core/SimpleContextMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/py4j/core/SimpleContextValve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/py4j/core/SimpleLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/py4j/core/SimplePipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/py4j/core/SimpleWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/py4j/core/SimpleWrapperValve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -968,42 +689,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/Container.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/py4j/core/SimpleContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <element signature="e#7698#7699#0" expanded="true" />
-            <element signature="e#7725#7726#0" expanded="true" />
-            <element signature="e#9898#9899#0" expanded="true" />
-            <element signature="e#9927#9928#0" expanded="true" />
-            <element signature="e#9971#9972#0" expanded="true" />
-            <element signature="e#10007#10008#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/logger/FileLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2036">
           <caret line="276" lean-forward="true" selection-start-line="276" selection-end-line="276" />
-          <folding>
-            <element signature="e#0#11375#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/util/LifecycleSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="167" selection-start-line="167" selection-end-line="167" />
         </state>
       </provider>
     </entry>
@@ -1014,13 +703,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/FileLog_2018-06-09.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="80" lean-forward="true" selection-start-column="80" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/FileLog_2018-06-09.txt" />
     <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/connector/http/HttpConnector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -1035,10 +718,210 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/loader/StandardClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="125" column="70" lean-forward="true" selection-start-line="125" selection-start-column="70" selection-end-line="125" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/util/LifecycleSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="93" column="11" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/lifecycle/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/lifecycle/Light.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="24" column="62" lean-forward="true" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/lifecycle/Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/core/ContainerBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="748" column="29" selection-start-line="748" selection-start-column="20" selection-end-line="748" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="256" column="4" lean-forward="true" selection-start-line="256" selection-start-column="4" selection-end-line="256" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/Lifecycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_25_x64/src.zip!/java/beans/PropertyChangeSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/lifecycle/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1456">
+          <caret line="73" column="30" lean-forward="true" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/loader/WebappLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="289" lean-forward="true" selection-start-line="289" selection-end-line="289" />
+          <folding>
+            <element signature="e#0#39867#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/apache/catalina/loader/WebappClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48773">
+          <caret line="1969" column="21" selection-start-line="1969" selection-start-column="21" selection-end-line="1969" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#63957#0" expanded="true" />
+            <element signature="e#5947#5948#0" expanded="true" />
+            <element signature="e#6010#6011#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/core/SimplePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/core/SimpleWrapperValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/core/SimpleWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2710">
+          <caret line="138" column="5" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/core/SimpleContextLifecycleListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/core/SimpleContextMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/core/SimpleLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/core/SimpleContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="e#7698#7699#0" expanded="true" />
+            <element signature="e#7725#7726#0" expanded="true" />
+            <element signature="e#9898#9899#0" expanded="true" />
+            <element signature="e#9927#9928#0" expanded="true" />
+            <element signature="e#9971#9972#0" expanded="true" />
+            <element signature="e#10007#10008#0" expanded="true" />
+            <element signature="e#10747#10748#0" expanded="true" />
+            <element signature="e#10774#10775#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/core/SimpleContextValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/py4j/core/SimpleContextConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/WEB-INF/classes/ModernServlet.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/py4j/startup/Bootstrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="46" column="44" lean-forward="true" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+        <state relative-caret-position="361">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

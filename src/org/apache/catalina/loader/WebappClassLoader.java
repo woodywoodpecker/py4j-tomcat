@@ -478,7 +478,7 @@ public class WebappClassLoader
     /**
      * If there is a Java SecurityManager create a Permission.
      *
-     * @param url URL for a file or directory on local system
+     * @param permission for Permission on local system
      */
     public void addPermission(Permission permission) {
         if ((securityManager != null) && (permission != null)) {
@@ -1413,7 +1413,7 @@ public class WebappClassLoader
      * directory (if unpacked),
      * the context URL, and jar file resources.
      *
-     * @param CodeSource where the code was loaded from
+     * @param codeSource where the code was loaded from
      * @return PermissionCollection for CodeSource
      */
     protected PermissionCollection getPermissions(CodeSource codeSource) {
@@ -1967,7 +1967,7 @@ public class WebappClassLoader
      * Check the specified JAR file, and return <code>true</code> if it does
      * not contain any of the trigger classes.
      *
-     * @param jarFile The JAR file to be checked
+     * @param jarfile The JAR file to be checked
      *
      * @exception IOException if an input/output error occurs
      */

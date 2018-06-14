@@ -1,3 +1,6 @@
+/*
+ * copied from ex07.pyrmont.core.SimpleWrapper
+ */
 package org.py4j.core;
 
 import org.apache.catalina.*;
