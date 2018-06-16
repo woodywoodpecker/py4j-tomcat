@@ -32,6 +32,10 @@ public class SimpleWrapperValve implements Valve, Contained {
         if (sres instanceof HttpServletResponse)
             hres = (HttpServletResponse) sres;
 
+        //-- new addition -----------------------------------
+        Context context = (Context) wrapper.getParent();
+        request.setContext(context);
+        //-------------------------------------
         // Allocate a servlet instance to process this request
         try {
             servlet = wrapper.allocate();
